@@ -1,4 +1,3 @@
-
 from flask import Flask, jsonify
 from stibera_ai import StiberaAI
 from pelister_ai import PelisterAI
@@ -9,7 +8,7 @@ pelister = PelisterAI()
 
 @app.route("/")
 def home():
-    return jsonify({"status": "Stibera Commerce AI System is Live"})
+    return jsonify({"status": "Stibera Commerce is running"})
 
 @app.route("/scan")
 def scan_products():
@@ -22,4 +21,4 @@ def ethical_check():
     return jsonify({"ethics": result})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
+    app.run(host="0.0.0.0", port=1000)
