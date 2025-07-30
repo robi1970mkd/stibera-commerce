@@ -1,6 +1,10 @@
+
 services:
   - type: web
     name: stibera-commerce
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "bash start.sh"
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: SHOPIFY_APP_SECRET
+        sync: false
