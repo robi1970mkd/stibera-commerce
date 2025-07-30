@@ -1,3 +1,2 @@
-# StiberaCommerce Final Config
-
-This is the full configuration for deployment.
+# Stibera Commerce
+Ова е основна Flask апликација за стартување на реална онлајн продавница преку Fly.io
