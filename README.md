@@ -1,3 +1,3 @@
-# Stibera Super Commerce App
+# StiberaCommerce Final Config
 
-This is the final deployable version of the Stibera online shop app.
+This is the full configuration for deployment.
