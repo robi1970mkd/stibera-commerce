@@ -1,0 +1,3 @@
+requests
+shopify
+python-dotenv

@@ -1,2 +1,5 @@
-# Stibera Commerce
-Ова е основна Flask апликација за стартување на реална онлајн продавница преку Fly.io
+# RGHZ101 Shopify Starter
+
+## Instructions:
+1. Fill in API keys in config.json
+2. Run shopify_starter.py to launch your store
